@@ -173,7 +173,7 @@ class DeferredLoader {
         try {
 
             // Extract the `errorID` and reject the deferred
-            _deferred.reject( event["errorID"] );
+            _deferred.reject( event );
 
         } finally {
 
