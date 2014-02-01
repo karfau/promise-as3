@@ -38,7 +38,7 @@
 	</target>
 	
 	<target name="compile" depends="init" description="Compile SWC library.">
-		<echo message="FLEX_HOME is set to: ${env.FLEX_HOME}"/>
+		<echo message="FLEX_HOME is set to: ${FLEX_HOME}"/>
 		
 		<!-- Compile SWC -->
 		<compc output="${bin.loc}/${build.fileName}.swc">
