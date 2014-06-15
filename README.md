@@ -9,6 +9,10 @@ It is fully asynchronous, ensuring that the `onFulfilled` and `onRejected` callb
 
 It supports foreign promises returned by callbacks as long as they support the standard Promise `then()` method signature.
 
+### Changes in this fork
+
+To provide an swc that doesn't contain any dependencys to a Flex SDK, the source code that has such dependencys was moved to a second source folder. 
+
 ## Internal Anatomy
 
 This implementation decomposes Promise functionality into four classes:
